@@ -3,7 +3,7 @@ import axios from 'axios';
 import { useAuthStore } from '../store/authStore';
 import { useNavigate } from 'react-router-dom';
 import NavbarUser from '../components/NavbarUser';
-import { Card, CardMedia, CardContent, Typography, Button, Stack, Divider, IconButton, CardActions, TextField } from '@mui/material';
+import { Card, CardMedia, CardContent, Typography, Button, Stack, Divider, IconButton, CardActions, TextField , Grid, Container} from '@mui/material';
 import { Favorite, FavoriteBorder } from '@mui/icons-material';
 import LoadingSpinner from '../components/LoadingSpinner';
 import './DashboardPages.css'; // Import your CSS files here
